@@ -33,7 +33,6 @@ ReactDOM.render(<ReportsNav />, document.querySelector('#root'));
 ReactDOM.render(<CommunicationNav />, document.querySelector('#root'));
 ReactDOM.render(<SettingsnNav />, document.querySelector('#root'));
 
-ReactDOM.render(myfirstelement, document.getElementById('root'));
 
 const drawerWidth = 300;
 
