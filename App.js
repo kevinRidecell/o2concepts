@@ -23,7 +23,7 @@ import SettingsnNav from './drawer-comps/nav-settings';
 import CommunicationNav from './drawer-comps/nav-communication';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import ServicesMenu from './drawer-comps/nav-services-menu-dialog';
-import { positions } from '@material-ui/system';
+
 
 ReactDOM.render(<BusinessSelector />, document.querySelector('#root'));
 ReactDOM.render(<ServicesSelector />, document.querySelector('#root'));
@@ -33,6 +33,7 @@ ReactDOM.render(<ReportsNav />, document.querySelector('#root'));
 ReactDOM.render(<CommunicationNav />, document.querySelector('#root'));
 ReactDOM.render(<SettingsnNav />, document.querySelector('#root'));
 
+ReactDOM.render(myfirstelement, document.getElementById('root'));
 
 const drawerWidth = 300;
 
